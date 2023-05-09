@@ -179,7 +179,26 @@ img {
     margin: 0;
     padding: 0;
 }
-
+.vertical {
+    width: 11px;
+    height: 490px;
+    position: absolute;
+    left: 48px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0 auto 0;
+    word-break: break-all;
+}
+.vertical-top, .vertical-bottom {
+    display: inline-block;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 48px;
+}
+.vertical-bottom {
+    margin-top: 50px;
+}
 .form-control:focus {
     border-color: #ffffff !important;
     box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
