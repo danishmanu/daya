@@ -467,6 +467,7 @@ hr.botm-line2 {
     padding: 2px;
    
   }
+ 
 .main:hover::after {
     background-color: rgba(27, 236, 222, 0.5);
     display: block;
