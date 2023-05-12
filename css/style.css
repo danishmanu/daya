@@ -423,6 +423,10 @@ button {
     margin: 0 auto;
     top: -40px;
 }
+.hoke{
+    text-align:justify;
+word-spacing:-2px;
+}
 
 .main {
     width: 100%;
