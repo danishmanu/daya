@@ -14,6 +14,7 @@
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
+  
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
    <!-- bootstrap css -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -445,11 +446,19 @@
                    </div> 
                   
                      <div class="contact_box col-md-6">
+                        <!-- <form action="https://formspree.io/f/mnqyrdyq" method="POST">
+                           <input type="text" name="name" required>
+                           <input type="email" name="email" required>
+                           
+                      </form> -->
                      <h1 class="book_text">Book Appoinment</h1>
-                     <input type="text" class="Email_text" placeholder="Name" name="Name">
-                     <input type="text" class="Email_text" placeholder="Number" name="Name">
+                     <form id=""  action="https://formspree.io/f/xzbqwrqa"  method="POST">
+                     <input type="text" class="Email_text" placeholder="Name" name="name">
+                     <input type="text" class="Email_text" placeholder="Number" name="number">
                      <textarea class="massage-bt" placeholder="For what" rows="5" id="comment" name="Massage"></textarea>
-                     <div class="send_bt"><a href="#">SEND</a></div>
+                   
+                     <div class="send_bt pt-3 ps-3">  <button class="btn btn-primary " type="submit">Send</button></div>
+                  </form>
                   </div>
                </div>
                
@@ -598,6 +607,7 @@
    </div>
    <!-- copyright section end -->
    <!-- Javascript files-->
+  
    <script src="js/jquery.min.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
