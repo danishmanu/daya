@@ -287,7 +287,7 @@ button {
 }
 
 .banner_taital {
-    width: 80;
+    width: 8;
     float: left;
     font-size: 60px;
     color: #15e4d0;
@@ -382,7 +382,7 @@ button {
 .health_section {
     width: 98%;
     float: left;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 
 .health_taital {
@@ -627,7 +627,7 @@ hr.botm-line2 {
 .news_section {
     width: 100%;
     float: left;
-    padding-bottom: 90px;
+    padding-bottom: 4px;
 }
 
 .news_section_2 {
