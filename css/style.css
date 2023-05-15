@@ -313,6 +313,9 @@ button {
   width: 300px;
 
 }
+.card-text{
+    margin-left: 0 auto;
+}
 .btn_main {
     width: 100%;
     float: left;
