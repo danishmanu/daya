@@ -308,7 +308,9 @@ button {
     margin-top: 5px;
     
 }
-
+.card-image{
+    height: 300px;
+}
 
 .card-img-top{
     align-self: center;
